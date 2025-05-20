@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Blog Portfolio">
+    <title>My Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .post {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+        .post p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #eee;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog Portfolio</h1>
+        <p>Thoughts, stories, and ideas</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="post">
+            <h2>Welcome to My Blog</h2>
+            <p>This is a sample personal blog hosted on AWS Cloud. It's part of a cloud infrastructure project designed to be scalable and secure.</p>
+        </div>
+        <div class="post">
+            <h2>Deploying with GitHub</h2>
+            <p>In this post, I explain how to use GitHub for version control and automatically deploy updates to my web server using a simple bash script.</p>
+        </div>
+        <div class="post">
+            <h2>Securing Your Cloud Database</h2>
+            <p>I placed my MariaDB server in a private subnet to ensure it's only accessible from the web server. This improves security and reduces attack surfaces.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 My Blog Portfolio
+    </footer>
+</body>
+</html>
